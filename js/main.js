@@ -32,9 +32,9 @@ vid:'<iframe width="500"  autoplay="true" height="315" src="https://www.youtube.
   
 
 var coaches = [
-    {name: 'Chris Heria', pic:'/img/chris.jfif'},
-    {name: 'Bully Juice', pic:'/img/bully.jpg'},
-    {name:'Igor Voitenko', pic:'/img/igo.jfif'}
+    {name: 'Chris Heria', pic:'img/chris.jfif'},
+    {name: 'Bully Juice', pic:'img/bully.jpg'},
+    {name:'Igor Voitenko', pic:'img/igo.jfif'}
 
  ];
 
