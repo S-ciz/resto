@@ -1,0 +1,6 @@
+[
+    {"title":"Study timetable", "body":"this is the timetable"},
+    {"title":"Session Storage", "body":"Only the localStorage"},
+    {"title":"Cookies", "body":"Setting cookies for local"}
+
+]

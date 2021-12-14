@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Plan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="/style/all.min.css">
+</head>
+<body>
+<!--navbar-->
+<nav class="navbar navbar-dark navbar-expand-lg bg-dark p-3">
+    <div class="container">
+        <a href="#" class="navbar-brand">Acme<span class="prime">Dem</span></a>
+        <button
+        class="navbar-toggler"
+        data-bs-target ="#menu"
+    data-bs-toggle="collapse"
+        >
+<span class="navbar-toggler-icon"></span>
+            
+        </button>
+        <div id="menu" class="collapse navbar-collapse text-light  ">
+            <ul class="navbar-nav mt-3 mt-sm-2 ms-auto text-center">
+                <li class="nav-item">
+                    <a href="index.html" id="active" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Schedule</a>
+                </li><li class="nav-item">
+                    <a href="#" class="nav-link">Our Blogs</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!--Showcase-->
+
+<section class="bg-dark " id="showcase">
+
+    <div  class="container p-3 d-flex  justify-items-between justify-content-center">
+
+        <div  id="showfirst" class="text-light text-center text-sm-start mt-3 mb-3">
+            <h1 class="py-2">Tracking Your<span class="prime"> Sweat</span> </h1>
+            <p class="lead  py-3">Do you want to improve your life? Then you are at the right page! Start your fitness planning right now for a healthier lifestyle
+                with this fitness tracker
+            </p>
+            <a href="#" class=" text-light btn btn-lg btn-prime mb-3">Start planning now</a>
+        </div> 
+       
+        <div>
+
+            <img load="eager"  src="/img/red.png" alt="#" class="img-fluid w-60  d-none mt-2 d-sm-block">
+        </div>
+
+
+    </div>
+</section>
+
+<!--Newsletter-->
+<section id="newsletter" class="bg-prime p-4">
+<div class="container">
+<div class="d-sm-flex justify-content-between">
+
+    <div class="text-light text-center"> 
+        <h3>Subscribe to daily exercises</h3> 
+        
+    </div>
+
+    <div>
+        <form  class="form">
+        <input type="text" class="form-control" placeholder="Enter Email..."> 
+    </form>
+    </div>
+
+
+
+</div>
+
+
+
+</div>
+
+</section>
+
+
+<section id="intro" class=" p-5">
+    <div class="container p-3 d-sm-flex justify-content-between gap-2">
+
+        <div class="text-center"> 
+          <img load="lazy" src="/img/nice.png" class="img-fluid d-none d-sm-block  w-60 m-auto " alt="">  
+          <img src="/img/showcase.png" alt="" class="img-fluid w-50 d-block d-sm-none m-auto">
+        
+        </div >
+   
+  
+      <div class="text-sm-start  p-sm-3 text-center">
+          <h2 class="display-4 text-center">Welcome!</h2>
+        <p class="py-2">Most people think that getting into 
+            shape is the hard part. In contrary, it is indeed not that difficult.
+            Maintaining the shape is actually the hard part - this is where a tracker comes in handy. It is not essentially
+            about the exercise, but more about the consistency and building the habit.
+        </p>
+        <p class="pb-2">
+            Use this <span class="fw-bold">Free
+        </span> tracker to track your training routines and achieve great results!
+        </p>
+            
+
+        
+         <button class="btn btn-prime text-light btn-sm w-100">Start improvement</button>
+      </div>
+
+
+    </div>
+
+
+
+</section>
+
+
+
+
+<span id="return" class="m-sm-5"></span>
+
+
+
+<section id="main" class="p-5 bg-dark  ">
+
+<div class="container text-light  d-sm-flex justify-content-between">
+
+
+    <div >
+<h1 class="text-light text-center mb-3 fw-bold"> <span class="prime">Warming</span>Up</h1>
+<p class="text-center text-sm-start">Enough with the formalities. Complete your workout schedule to begin training. No Excuses! </p>
+
+<form  class="form">
+<label class="prime"> Time Start</label>
+<input type="time" class="form-control ">
+<label class="prime"> Workout At</label>
+<select id="">
+    <option>Home</option>
+    <option>Gym</option>
+
+</select>
+<label class="prime">Workout State</label>
+<select id="">
+    <option>Alone</option>
+    <option>Group</option>
+
+</select>
+
+</form>
+
+
+</aside>
+       
+    </div>
+    
+    <div class="text-center ">
+        <img id="img" class="img-fluid rounded w-60 mt-sm-4  " src="/img/purple.png" alt="">
+        
+    </div>
+
+</div>
+
+<main id="forming" >
+    <div class="container text-center text-light ">
+
+        <h2 class="text-center pt-5 text-light fw-bold">Select<span class="prime"> Coach</span></h2>
+<select class="w-50 text-center" id="selection" >
+    
+    <option class="text-center">Full Body</option>
+    <option class="text-center">Abs</option>
+    <option class="text-center">Arms</option>
+</select>
+<!--Pick Coach-->
+
+<section id="testimony" class=" container text-dark   text-center">
+
+    <div class="container text-center">
+
+        
+<p class="text-center text-light mt-2" id="coach_name"></p>
+       <div  class="container text-center my-3 "   id="div">
+      
+        <span id="chevron"><i  class="fa px-sm-2 fa-chevron-left prime fa-2x"></i></span><img id="coach_img" src="" alt="Igor Voitenko" class="img-fluid rounded-circle"><span id="chevron"><i class="fa px-sm-2 fa-chevron-right prime fa-2x"></i></span>
+          
+
+       </div>
+     
+       
+      
+      
+    </div>
+</section>
+    </div>
+
+</main>
+
+
+
+<aside id="BtnRight" class="container text-center">
+
+    <a href="#return"><i  class="fa fa-arrow-right fa-3x prime"></i></a>
+</aside>
+
+</section>
+
+
+<section id="quoate" class="p-5 text-light text-center">
+    <div class="container text-center">
+<blockquote class="blockquote">
+    <p class=" text-dark p-sm-3">I am not afraid of a man that practise a thousand punches at once. 
+        I am afraid of the man that practise one punch a thousand times! <br>
+        <span class="text-dark fw-bold text-start">  Bruce Lee</span>
+    </p>
+<i class="fa fa-asterisk text-dark "></i>
+<i class="fa fa-asterisk text-dark "></i>
+<i class="fa fa-asterisk text-dark "></i>
+</blockquote>
+    </div>
+</section>
+
+
+
+<section id="testimony" class=" container text-dark   text-center">
+
+    <div class="container text-center">
+
+        <h2 class="text-center pb-3 text-dark fw-bold">Our<span class="prime">Testimonials</span></h2>
+
+       <div class="container text-center my-3 "  id="div">
+      
+        <span><i  class="fa px-2 fa-chevron-left prime fa-2x"></i></span><img src="/img/coup.jfif" alt="" class="img-fluid rounded-circle"><span><i class="fa px-2 fa-chevron-right prime fa-2x"></i></span>
+          
+      
+
+       </div>
+       <p class="text-dark lead   px-5 ">#<span class="prime fw-bold">AcmeDem </span> Tracker is just like a coach in your pocket, encouraging you to 
+           beat your slump and  do your absolute best!
+       </p>
+          <!--icons-->
+          <span class="pb-5">
+
+            <i class="fab fa-facebook  text-dark"></i>
+          <i class="fab fa-instagram text-dark"></i>
+          <i class="fab fa-tiktok"></i>
+          </span>
+      
+      
+    </div>
+</section>
+
+<div id="block" class="text-center  mt-5  bg-dark ">
+
+    
+<div  id="work"  class="text-center ">
+     <h3 class="text-center prime d-none d-sm-grid ">Follow me on Media</h3>
+     <div class="d-flex m-auto text-center gap-3">
+        <i class="fa fa-asterisk prime"></i>
+        <i class="fa fa-asterisk prime"></i>
+        <i class="fa fa-asterisk prime"></i>
+     </div>
+    <p class="text-light px-3 py-3 lead">The road to the dream begins right here, right now!
+        Keep your eyes on the prize, but your head in the game.
+         Lift that weight!</p>
+       <button class="btn btn-sm btn-prime text-light w-50 m-auto">Level Up Your Skills 
+           <span><i class="fa fa-arrow-right text-light px-2 "></i></span>
+       </button>
+    </div>
+
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="/js/all.min.js"></script>
+   <script type="module" src="/js/main.js"></script>
+   
+  <script type="module">
+      import name from '/js/main.js'
+     
+  
+      var init = 0;
+    var coach_name=  document.querySelector('p#coach_name');
+      
+//generate random coach whenever reload 
+      window.addEventListener('DOMContentLoaded',e=>{
+         var random = Math.floor(Math.random(1,3)*name.coaches.length)
+        document.querySelector('img#coach_img').src =name.coaches[random].pic
+       coach_name.textContent =name.coaches[random].name
+      })
+      //initiate count
+
+    
+      
+class UI{
+    static  next(el){
+
+ var img = document.querySelector('img#coach_img');
+img.src = name.coaches[init].pic;
+coach_name.textContent =name.coaches[init].name
+  
+init++
+if(init>2){
+    init= 0;
+}
+ 
+
+  };
+
+  static  prev(el){
+
+var img = document.querySelector('img#coach_img');
+img.src = name.coaches[init].pic;
+coach_name.textContent =name.coaches[init].name
+
+init--;
+if(init<0){
+   init= 2;
+}
+
+
+ };
+
+ //loading function
+
+ 
+
+  
+
+}
+
+
+
+
+    
+      
+
+      //
+var chevron = document.querySelectorAll('span#chevron');
+
+//loop through chevron
+    for(let chev of chevron){
+      chev.addEventListener('click',che=>{
+        var child = chev.firstElementChild.classList;
+        if(child.contains('fa-chevron-right')){
+           UI.next()
+        
+        } else{
+            UI.prev()
+        }
+
+      })
+        
+    }
+
+    //form validation datum
+
+    //get select value
+
+    
+
+var Btnlg = document.getElementById('BtnRight');
+
+Btnlg.addEventListener('click', ()=>{
+    
+    var select = document.getElementById('selection').value;
+
+var person = coach_name.textContent;
+
+
+//filter through array kit of coaches from imported modules
+
+var call =  name.kit.filter(k=>{
+         return k.coach==person && k.catergory== select;
+     })
+
+
+    //Get output element
+    var main = document.getElementById('main');
+   
+   
+main.innerHTML = `<div id="iframe" class="text-center m-auto w-50 text-light d-grid justify-item-center  justify-content-center" 
+style="position:relative;">   
+
+
+
+${call[0].vid}
+
+<a href="index.html"  class="btn btn-sm w-50 mt-3 btn-prime m-auto text-light text-center">Back</a>
+
+</div>
+`
+ 
+var ifm =document.getElementById('iframe');
+
+ifm.firstElementChild.style.position = 'abolute'
+ifm.firstElementChild.style.objectFill = 'cover'
+
+ifm.style.width = '100%' ;
+ifm.style.display = 'grid' ;
+ifm.style.alignItems = 'center';
+ifm.style.alignContent = 'center';
+
+
+
+
+
+
+
+
+
+})
+
+
+      
+  </script>
+
+  
+   
+</body>
+</html>
