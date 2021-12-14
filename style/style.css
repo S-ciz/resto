@@ -59,7 +59,7 @@ div#block::after {
   background-color: #333;
   content: '';
   position: absolute;
-  background-image: url(/img/weight.jpg);
+  background-image: url(img/weight.jpg);
   background-size: cover;
   filter: brightness(0.5);
   background-position: center;
