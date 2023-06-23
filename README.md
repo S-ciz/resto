@@ -1,6 +1,7 @@
-# fitness design with boostrap
+# Fitness design website with boostrap5 ahd html5
 # Live Preview
 https://s-ciz.github.io/resto/index.html
+
 ![image](https://github.com/S-ciz/resto/assets/95995178/f7f63eaa-a6ff-4658-bf62-b2320d178d56) 
 
 # Welcome 
