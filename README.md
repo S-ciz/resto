@@ -1,4 +1,4 @@
-# Fitness design website with boostrap5 ahd html5
+# Fitness design website with boostrap5 and html5
 # Live Preview
 https://s-ciz.github.io/resto/index.html
 
